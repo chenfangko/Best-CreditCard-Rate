@@ -1,0 +1,64 @@
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe.config
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csprojAssemblyReference.cache
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Form1.resources
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Properties.Resources.resources
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.GenerateResource.cache
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CopyComplete
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1\Credit Card Program\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe.config
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csprojAssemblyReference.cache
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Form1.resources
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Properties.Resources.resources
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.GenerateResource.cache
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CopyComplete
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe.config
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csprojAssemblyReference.cache
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Form1.resources
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Properties.Resources.resources
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.GenerateResource.cache
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CopyComplete
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專2\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe.config
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\CreditCardProgram.pdb
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csprojAssemblyReference.cache
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Form1.resources
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.Properties.Resources.resources
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.GenerateResource.cache
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.csproj.CopyComplete
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.exe
+C:\Users\User\Desktop\小專1 copy\CreditCardProgram\CreditCardProgram\obj\Debug\CreditCardProgram.pdb

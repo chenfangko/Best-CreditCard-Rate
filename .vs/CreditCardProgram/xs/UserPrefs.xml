@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{0F73EDB2-B1F9-42EE-A3B5-24C809A5A278}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CreditCardProgram/Form1.cs">
+    <Files>
+      <File FileName="CreditCardProgram/Form1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CreditCardProgram" expanded="True">
+            <Node name="CreditCardProgram" expanded="True">
+              <Node name="Form1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CreditCardProgram PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

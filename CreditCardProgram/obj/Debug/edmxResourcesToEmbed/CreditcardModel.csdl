@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CreditCardModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Card">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="bank" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="generalInfo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="onlineInfo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="othersInfo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Discounts" Relationship="Self.FK_Discount_Card" FromRole="Card" ToRole="Discount" />
+  </EntityType>
+  <EntityType Name="Discount">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="discount1" Type="Double" Nullable="false" />
+    <Property Name="cardId" Type="Int32" Nullable="false" />
+    <Property Name="shopId" Type="Int32" Nullable="false" />
+    <Property Name="limit" Type="Int32" />
+    <Property Name="remark" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Card" Relationship="Self.FK_Discount_Card" FromRole="Discount" ToRole="Card" />
+    <NavigationProperty Name="Shop" Relationship="Self.FK_Discount_Shop" FromRole="Discount" ToRole="Shop" />
+  </EntityType>
+  <EntityType Name="Shop">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Discounts" Relationship="Self.FK_Discount_Shop" FromRole="Shop" ToRole="Discount" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Discount_Card">
+    <End Role="Card" Type="Self.Card" Multiplicity="1" />
+    <End Role="Discount" Type="Self.Discount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Card">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Discount">
+        <PropertyRef Name="cardId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Discount_Shop">
+    <End Role="Shop" Type="Self.Shop" Multiplicity="1" />
+    <End Role="Discount" Type="Self.Discount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shop">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Discount">
+        <PropertyRef Name="shopId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CreditCardEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cards" EntityType="Self.Card" />
+    <EntitySet Name="Discounts" EntityType="Self.Discount" />
+    <EntitySet Name="Shops" EntityType="Self.Shop" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Discount_Card" Association="Self.FK_Discount_Card">
+      <End Role="Card" EntitySet="Cards" />
+      <End Role="Discount" EntitySet="Discounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Discount_Shop" Association="Self.FK_Discount_Shop">
+      <End Role="Shop" EntitySet="Shops" />
+      <End Role="Discount" EntitySet="Discounts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

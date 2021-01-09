@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CreditCardModelStoreContainer" CdmEntityContainer="CreditCardEntities">
+    <EntitySetMapping Name="Cards">
+      <EntityTypeMapping TypeName="CreditCardModel.Card">
+        <MappingFragment StoreEntitySet="Card">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+          <ScalarProperty Name="generalInfo" ColumnName="generalInfo" />
+          <ScalarProperty Name="onlineInfo" ColumnName="onlineInfo" />
+          <ScalarProperty Name="othersInfo" ColumnName="othersInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Discounts">
+      <EntityTypeMapping TypeName="CreditCardModel.Discount">
+        <MappingFragment StoreEntitySet="Discount">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="discount1" ColumnName="discount" />
+          <ScalarProperty Name="cardId" ColumnName="cardId" />
+          <ScalarProperty Name="shopId" ColumnName="shopId" />
+          <ScalarProperty Name="limit" ColumnName="limit" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shops">
+      <EntityTypeMapping TypeName="CreditCardModel.Shop">
+        <MappingFragment StoreEntitySet="Shop">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CreditCardModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
